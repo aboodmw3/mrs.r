@@ -1,0 +1,89 @@
+<body>
+  <div class="container">
+    <div class="heading">
+      <img style="vertical-align:middle;" src="icons/apple-icon.png" align="middle">
+      <h1 class="title" style="line-height: 250%">Dr.J.</h1>
+      <div class="scores-container" style="display: none;">
+        <div class="score-container">0</div>
+        <div class="best-container">2800</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Join elements and get to the <strong>SODIUM tile!</strong></p>
+      <a class="restart-button">New Game</a>
+	  <p class="game-intro"><a class="save-button" style="margin:0 5px">Save current game</a>
+	  <a class="load-button">Load saved game</a></p>
+	  
+    </div>
+    <div class="app-notice-container">
+      <span class="notice-close-button">x</span>
+      <div class="notice-body">Game has been saved successfully :)</div>
+    </div>
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-2 tile-position-2-4 tile-new"><div class="tile-inner">H</div></div><div class="tile tile-4 tile-position-4-4 tile-new"><div class="tile-inner">He</div></div></div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same element touch, they <strong>merge into one !</strong>
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Note:</strong> This site is the official version of Dr.J. You can play it on your phone via <a href="https://git.io/vo93m">https://git.io/vo93m.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    </p>
+    <hr>
+    <p>
+    Created by Hjondi based on <a href="https://gabrielecirulli.github.io/2048/" target="_blank">2048.</a> And on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    </p>
+  </div>
+
+  <script src="js/periodic_table.js"></script>
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/session_storage_manager.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+
+
+</body>
